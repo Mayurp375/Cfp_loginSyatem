@@ -52,7 +52,7 @@
     <div>
         <form class="cont" action="LoginServelet" method="get">
             <div class="form-group">
-                <label>Email address <input type="email" name="userEmail" placeholder="Enter email"></label>
+                <label>Email address <input type="email" name="userEmail" pattern="[A-Za-z]{3}" placeholder="Enter email"></label>
                 <br>
                 <label>Password <input type="password" name="userPassword" placeholder="Password"></label>
             </div>
